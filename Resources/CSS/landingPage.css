@@ -183,3 +183,96 @@ footer p {
 footer nav {
     margin-right: 1rem;
 }
+
+@media screen and (max-width: 1280px) and (min-width: 800px)  {
+    
+    header {
+        font-size: 0.6rem;
+    }
+    
+    header h1 {
+        display: none;
+    }
+
+    header nav {
+        justify-self: flex-start;
+    }
+    
+    #banner {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        margin: 0 auto;
+        font-size: smaller;
+    }
+
+    #skills {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        margin: 0 auto;
+        font-size: smaller;
+    }
+
+    #aboutME {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        margin: 0 auto;
+        font-size: smaller;
+    }
+
+    #contact {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        margin: 0 auto;
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width: 414px) and (max-height: 896px) {
+    header {
+        font-size: 0.6rem;
+    }
+    
+    header h1 {
+        display: none;
+    }
+
+    header nav {
+        justify-self: flex-start;
+    }
+    
+    #banner {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        margin: 0 auto;
+        font-size: smaller;
+    }
+
+    #skills {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        margin: 0 auto;
+        font-size: smaller;
+    }
+
+    #aboutME {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        margin: 0 auto;
+        font-size: smaller;
+    }
+
+    #contact {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        margin: 0 auto;
+        font-size: smaller;
+    }
+  }
