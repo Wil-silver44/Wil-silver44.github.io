@@ -12,11 +12,23 @@ body {
 
 header {
     box-sizing: content-box;
+    position: sticky;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row;
     justify-content: space-between;
     border-bottom: 2px solid #BAD9B5;
     width: 100%;
+    height: 3.5rem;
+    z-index: 3;
+    background-color: #0D1B1E;
+    top: 0px;
+    font-size: 1.25rem;
+}
+
+main {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    margin: 0 auto;
 }
 
 header h1, header nav {
@@ -33,20 +45,124 @@ header nav {
     justify-content: space-between;
 }
 
-header a {
+nav a {
+    margin-left: 10px;
+}
+
+a {
     color: #BAD9B5;
     font-family: 'Space Grotesk', sans-serif;
 }
 
-header a:hover {
+a:hover {
     color: #DAEAD7;
 }
 
 /* BANNER */
 #banner {
-    box-sizing: content-box;
-    justify-content: space-between;
-    border-bottom: 2px solid #BAD9B5;
-    background-image: url("");
+    border-bottom: 1px solid #BAD9B5;
+    background-image: url(https://raw.githubusercontent.com/Wil-silver44/Wil-silver44.github.io/main/Resources/Media/ales-nesetril-Banner-unsplash.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: border-box;
     width: 100%;
+    height: 45rem;
+    font-size: 1.15rem;
+}
+
+#banner div {
+    position: absolute;
+    box-sizing: content-box;
+    margin: 7rem auto auto 3rem;
+}
+
+#banner div h1 {
+    margin-bottom: 0;
+}
+
+#banner div h2 {
+    margin-bottom: 2rem;
+    margin-left: 2.5rem;
+}
+
+#banner div p {
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    width: 15rem;
+}
+
+#banner div a {
+    margin-left: 5rem;
+}
+
+#skills {
+    border-bottom: 1px solid #BAD9B5;
+    display: flex;
+    width: 100%;
+    height: 33.75rem;
+    font-size: 1.15rem;
+    justify-content: space-evenly;
+    margin-top: 7rem;
+}
+
+#skills h2 {
+    text-align: center;
+}
+
+#skills p {
+    width: 26rem;
+}
+
+#aboutME {
+    margin-top: 4.5em;
+    border-bottom: 1px solid #BAD9B5;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 33.75rem;
+    font-size: 1.15rem;
+}
+
+#aboutME h2 {
+    text-align: right;
+}
+
+#aboutME p {
+    width: 24rem;
+    margin-top: 2.65rem;
+}
+
+#contact {
+    margin-top: 4rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 100%;
+    height: 22.5rem;
+    font-size: 1.15rem;
+    text-align: center;
+}
+
+footer {
+    box-sizing: content-box;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    border-top: 2px solid #BAD9B5;
+    width: 100%;
+    height: 3.5rem;
+    z-index: 3;
+    background-color: #0D1B1E;
+}
+
+footer p, footer nav {
+    margin: auto 0;
+}
+footer p {
+    margin-left: 1rem;
+}
+footer nav {
+    margin-right: 1rem;
 }
