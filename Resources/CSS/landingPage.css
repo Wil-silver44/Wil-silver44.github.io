@@ -61,7 +61,7 @@ a:hover {
 /* BANNER */
 #banner {
     border-bottom: 1px solid #BAD9B5;
-    background-image: url(https://raw.githubusercontent.com/Wil-silver44/Wil-silver44.github.io/main/Resources/Media/ales-nesetril-Banner-unsplash.jpg);
+    background-image: url("../Media/ales-nesetril-Banner-unsplash.jpg");
     background-size: cover;
     box-sizing: border-box;
     background-repeat: no-repeat;
@@ -104,7 +104,7 @@ a:hover {
     height: 33.75rem;
     font-size: 1.15rem;
     justify-content: space-evenly;
-    background-image: url(https://github.com/Wil-silver44/Wil-silver44.github.io/blob/main/Resources/Media/florian-SKILLS-BG-unsplash.jpg?raw=true);
+    background-image: url("../Media/florian-SKILLS-BG-unsplash.jpg");
     background-size: cover;
     box-sizing: border-box;
     background-repeat: no-repeat;
@@ -125,7 +125,7 @@ a:hover {
     border-bottom: 1px solid #BAD9B5;
     display: flex;
     justify-content: space-evenly;
-    background-image: url(https://github.com/Wil-silver44/Wil-silver44.github.io/blob/main/Resources/Media/giovanni-ilardi-aboutME-unsplash.jpg?raw=true);
+    background-image: url("../Media/giovanni-ilardi-aboutME-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -147,7 +147,7 @@ a:hover {
     margin-top: 4rem;
     display: flex;
     flex-flow: column nowrap;
-    background-image: url(https://github.com/Wil-silver44/Wil-silver44.github.io/blob/main/Resources/Media/nasa-contact-BG-unsplash.jpg?raw=true);
+    background-image: url("../Media/nasa-contact-BG-unsplash.jpg");
     background-size: cover;
     box-sizing: border-box;
     background-repeat: no-repeat;
