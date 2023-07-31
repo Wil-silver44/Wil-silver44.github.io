@@ -4,3 +4,49 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Space Grotesk', sans-serif;
 */
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Roboto:ital@0;1&family=Space+Grotesk&display=swap');
+
+body {
+    background-color: #0D1B1E;
+    Color: #FFDAD6;
+}
+
+header {
+    box-sizing: content-box;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    border-bottom: 2px solid #BAD9B5;
+    width: 100%;
+}
+
+header h1, header nav {
+    margin: auto 0;
+}
+
+header h1 {
+    margin-left: 1rem;
+    font-family: 'Handjet', cursive;
+}
+
+header nav {
+    margin-right: 1rem;
+    justify-content: space-between;
+}
+
+header a {
+    color: #BAD9B5;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+header a:hover {
+    color: #DAEAD7;
+}
+
+/* BANNER */
+#banner {
+    box-sizing: content-box;
+    justify-content: space-between;
+    border-bottom: 2px solid #BAD9B5;
+    background-image: url("");
+    width: 100%;
+}
