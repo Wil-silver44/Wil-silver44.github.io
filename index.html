@@ -23,6 +23,8 @@
 
     <!--JS script to connect fontawesome to webpage for footer icons!-->
     <script src="https://kit.fontawesome.com/a189e502ee.js" crossorigin="anonymous"></script>
+
+    <script src="./Resources/JS/homePage.js" defer></script>
 </head>
 
 <body>
@@ -32,8 +34,8 @@
         <h1>W.S.</h1>
         <nav id="BTNS">
             <!--<a href="#">LINK 1</a>-->
-            <a href="#aboutME">ABOUT</a>
-            <a href="#contact">CONTACT</a>
+            <a href="javascript: scrollAbt()">ABOUT</a>
+            <a href="javascript: scrollContact()">CONTACT</a>
         </nav>
     </header>
     
@@ -48,7 +50,7 @@
                     and staying at the forefront of the ever-evolving tech landscape.
                 </p>
 
-                <a href="">SCROLL FOR MORE</a>
+                <p><a href="javascript: scroll()" id="scroller">SCROLL FOR MORE</a></p>
             </div>
 
         </section>
